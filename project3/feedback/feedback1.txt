@@ -1,0 +1,72 @@
+# Feedback
+
+Group:
+
+Final score: 60 / 60
+
+## Style check
+
+Score: 5 / 5
+
+
+## ArrayHeap
+
+Score: 15 / 15
+
+-   PASS: testRemoveMinEmptyQueue
+-   PASS: testSimpleUsage
+-   PASS: testAttemptNullEntries
+-   PASS: testPeekMin
+-   PASS: testInternalStructure
+-   PASS: testStringEntries
+-   PASS: testPeekEmptyQueue
+-   PASS: testInsertingDuplicates
+-   PASS: testNoisyUsage
+-   PASS: testInsertingManyElements
+
+## Searcher
+
+Score: 15 / 15
+
+-   PASS: testKEqualsN
+-   PASS: testNonIntegerEntries
+-   PASS: testKIs1
+-   PASS: testNIs1
+-   PASS: testInputListNotMutated
+-   PASS: testWhenKIsNegative
+-   PASS: testWhenKIsSameAsThenN
+-   PASS: testWhenKIsSmallerThenN
+-   PASS: testWhenKIsBiggerThenThenN
+-   PASS: testIsNLogK
+-   PASS: testWhenKIsZero
+
+## TestArrayHeapFunctionality
+
+Score: 10 / 10
+
+-   PASS: AllOk
+-   PASS: NoResize
+-   PASS: NoExceptionInPeek
+-   PASS: NoExceptionInRemovemin
+-   PASS: NoExceptionInInsert
+-   PASS: InsertDoesNotUpdateSize
+-   PASS: RemoveminDoesNotUpdateSize
+-   PASS: AssumesAllParentsHaveFourChildren
+
+## TestTopKSortFunctionality
+
+Score: 10 / 10
+
+-   PASS: AllOk
+-   PASS: DoesNotThrowException
+-   PASS: DoesNotHandleKZeroCase
+-   PASS: AssumesKAlwaysLessThenN
+-   PASS: OffByOneErrorInLoop
+
+## TestSortingStress
+
+Score: 5 / 5
+
+-   PASS: AllOk
+-   PASS: DeliberatelyInefficient
+

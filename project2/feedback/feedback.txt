@@ -1,0 +1,97 @@
+# Feedback
+
+Group:
+
+Final score: 60 / 60
+
+## Style check
+
+Score: 5 / 5
+
+
+## ArrayDictionary
+
+Score: 15 / 15
+
+-   PASS: testPutAndGetSameKeyRepeatedMany
+-   PASS: testRemoveDuplicate
+-   PASS: testContainsKeyBasic
+-   PASS: testRemoveBasic
+-   PASS: testIteratorEndsCorrectly
+-   PASS: testIteratorRunsMultipleTimes
+-   PASS: testGetMany
+-   PASS: testPutAndGetSameKeyRepeated
+-   PASS: testNonNullKeys
+-   PASS: testIteratorsAreIndependent
+-   PASS: testIteratorOverEmptyDictionary
+-   PASS: testPutAndGetBasic
+-   PASS: testIteratorUnusualKeys
+-   PASS: testAddGetMany
+-   PASS: testIteratorOverDictionaryWithOneElement
+-   PASS: testGetErrorHandling
+-   PASS: testLargeKeys
+-   PASS: testRemoveErrorHandling
+-   PASS: testIterator
+-   PASS: testNullKey
+-   PASS: testPutAndGetMany
+
+## ChainedHashSet
+
+Score: 10 / 10
+
+-   PASS: testPutAndGetSameKeyRepeatedMany
+-   PASS: testContainsWithRemovesBasic
+-   PASS: testRemoveDuplicate
+-   PASS: testContainsMany
+-   PASS: testRemoveBasic
+-   PASS: testIteratorEndsCorrectly
+-   PASS: stressTest
+-   PASS: testPutAndGetSameKeyRepeated
+-   PASS: testContains
+-   PASS: testIteratorsAreIndependent
+-   PASS: testNegativeHashCode
+-   PASS: testIteratorUnusualKeys
+-   PASS: testAddAndCheckMany
+-   PASS: testManyObjectsWithSameHashCode
+-   PASS: testLargeKeys
+-   PASS: testRemoveErrorHandling
+-   PASS: testAddAndRemoveBasic
+-   PASS: testIterator
+-   PASS: testNullKey
+
+## ChainedHashDictionary
+
+Score: 30 / 30
+
+-   PASS: handlesNegativeHashCodesEfficiently
+-   PASS: testInsertingDuplicatesDoesNotResize
+-   PASS: testInternalStructure
+-   PASS: testResizing
+-   PASS: testMethodIntegration
+-   PASS: testBigHashCodesAndNull
+-   PASS: stressTest
+-   PASS: testNegativeHashCode
+-   PASS: testContainsMaintainsStateForIterator
+-   PASS: testManyObjectsWithSameHashCode
+-   PASS: testPutAndGetSameKeyRepeatedMany
+-   PASS: testRemoveDuplicate
+-   PASS: testContainsKeyBasic
+-   PASS: testRemoveBasic
+-   PASS: testIteratorEndsCorrectly
+-   PASS: testIteratorRunsMultipleTimes
+-   PASS: testGetMany
+-   PASS: testPutAndGetSameKeyRepeated
+-   PASS: testNonNullKeys
+-   PASS: testIteratorsAreIndependent
+-   PASS: testIteratorOverEmptyDictionary
+-   PASS: testPutAndGetBasic
+-   PASS: testIteratorUnusualKeys
+-   PASS: testAddGetMany
+-   PASS: testIteratorOverDictionaryWithOneElement
+-   PASS: testGetErrorHandling
+-   PASS: testLargeKeys
+-   PASS: testRemoveErrorHandling
+-   PASS: testIterator
+-   PASS: testNullKey
+-   PASS: testPutAndGetMany
+

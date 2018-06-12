@@ -1,0 +1,84 @@
+# Feedback
+
+Group:
+
+Final score: 50 / 50
+
+## Style check
+
+Score: 5 / 5
+
+
+## ArrayDictionary
+
+Score: 15 / 15
+
+-   PASS: testRemoveEfficient
+-   PASS: testAddRemoveMany
+-   PASS: testContainsKeyBasic
+-   PASS: testGetErrorHandling
+-   PASS: testGetMany
+-   PASS: testLargeKeys
+-   PASS: testNullKey
+-   PASS: testPutAndGetBasic
+-   PASS: testPutAndGetMany
+-   PASS: testPutAndGetSameKeyRepeated
+-   PASS: testPutAndGetSameKeyRepeatedMany
+-   PASS: testRemoveBasic
+-   PASS: testRemoveDuplicate
+-   PASS: testRemoveErrorHandling
+
+## DoubleLinkedList
+
+Score: 18 / 18
+
+-   PASS: testIndexOfAndDelete
+-   PASS: testDeleteBasic
+-   PASS: testDeleteOutOfBoundsThrowsException
+-   PASS: testDeleteSingleElementList
+-   PASS: testInternalNodesAreCorrect
+-   PASS: testDeleteUpdatesSize
+-   PASS: testAddAndGetWorksForManyNumbers
+-   PASS: testAddAndIteratorIsEfficient
+-   PASS: testAddAndRemoveFromEnd
+-   PASS: testAddAndRemoveFromEndIsEfficient
+-   PASS: testAddAndRemoveMultiple
+-   PASS: testAddIsEfficient
+-   PASS: testAlternatingAddAndRemove
+-   PASS: testGetOutOfBoundsThrowsException
+-   PASS: testIndexOfAndContainsBasic
+-   PASS: testIndexOfAndContainsCorrectlyComparesItems
+-   PASS: testIndexOfAndContainsMany
+-   PASS: testInsertAtEndIsEfficient
+-   PASS: testInsertAtFrontIsEfficient
+-   PASS: testInsertBasic
+-   PASS: testInsertEmptyAndSingleElement
+-   PASS: testInsertNearEndIsEfficient
+-   PASS: testInsertOutOfBounds
+-   PASS: testIteratorBasic
+-   PASS: testIteratorOnEmptyList
+-   PASS: testIteratorOnLargerList
+-   PASS: testIteratorOnSingleElementList
+-   PASS: testNullEntry
+-   PASS: testRemoveOnEmptyListThrowsException
+-   PASS: testSetElements
+-   PASS: testSetManyItems
+-   PASS: testSetOutOfBoundsThrowsException
+-   PASS: testSetWithOneElement
+
+## TestDeleteFunctionality
+
+Score: 12 / 12
+
+-   PASS: AllOk
+-   PASS: NoLowerBoundsCheck
+-   PASS: NoUpperBoundsCheck
+-   PASS: SearchOffByOne
+-   PASS: ModificationOfFrontField
+-   PASS: MissingFrontFieldRepairLogic
+-   PASS: MissingPrevNodeRepairLogic
+-   PASS: MissingBackFieldRepairLogic
+-   PASS: MissingNextNodeRepairLogic
+-   PASS: MissingSizeUpdate
+-   PASS: CompletelyIncorrectReturnValue
+

@@ -1,0 +1,48 @@
+# Feedback
+
+Group:
+
+Final score: 60 / 60
+
+## Style check
+
+Score: 5 / 5
+
+
+## Graph
+
+Score: 20 / 20
+
+-   PASS: testDijkstraOnManyGraphs
+-   PASS: testGraphWithBadEdgeNotPermitted
+-   PASS: testFindingShortestPathSameStartAndEnd
+-   PASS: testFindingMst
+-   PASS: testFindingShortestPathComplex
+-   PASS: testFindingShortestPathSimple
+-   PASS: testFindingShortestPathDisconnectedComponents
+-   PASS: testSizeMethods
+-   PASS: testGraphWithNegativeEdgesNotPermitted
+
+## ArrayDisjointSet
+
+Score: 20 / 20
+
+-   PASS: testPathCompression
+-   PASS: testInternalStructure
+-   PASS: testDegenerateUnions
+-   PASS: testUnionSimple
+-   PASS: testUnionUnequalTrees
+-   PASS: testIllegalUnion
+-   PASS: testLargeForest
+-   PASS: testIllegalFindSet
+-   PASS: testMakeSetAndFindSetSimple
+
+## KruskalMazeCarver
+
+Score: 15 / 15
+
+-   PASS: testCarverReturnsViableMST
+-   PASS: testGeneratesSolvableMaze
+-   PASS: testResultIsRandom
+-   PASS: testCarverDoesNotMutateMaze
+

@@ -1,0 +1,217 @@
+/* General page layout */
+
+* {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em 2em;
+}
+
+.wrapper {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* General flourishes */
+
+.logo {
+    font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
+}
+
+/* /http://www.washington.edu/brand/graphic-elements/primary-color-palette/ */
+.uw-purple {
+    color: #4b2e83;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+/* Exception message */
+
+pre {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+code {
+    font-family: Consolas, monaco, monospace;
+    font-align: left;
+}
+
+/* Search widgets */
+
+.searchbar {
+    /* Inner text styles */
+    vertical-align: top;
+    padding: 5px 9px;
+    background-color: #fff;
+
+    /* Border */
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.searchbar:focus,
+.searchbar:hover,
+.searchbar:active {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.submit-button {
+    /* Inner text styling */
+    background-color: #f2f2f2;
+    color: #757575;
+    font-weight: bold;
+    cursor: default;
+    padding: 0 1em;
+
+    /* Border */
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
+
+.submit-button:active,
+.submit-button:focus,
+.submit-button:hover {
+    border-color: #c5c5c5;
+    color: #000;
+}
+
+/* Main page */
+
+.center-search-area {
+    text-align: center;
+}
+
+.title-wrapper {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.title-wrapper h1 {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+.center-search-area .searchbar {
+    /* Dimensions */
+    display: block;
+    width: 100%;
+    height: 44px;
+
+    /* Positioning */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+
+.center-search-area .submit-button {
+    /* Dimensions */
+    display: block;
+    height: 44px;
+
+    /* Positioning */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Results page */
+
+.top-search-area {
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+}
+
+.top-search-area .logo-container {
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.top-search-area .logo-container h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.top-search-area .logo-container a {
+    font-size: inherit;
+}
+
+.top-search-area .logo-container a:active,
+.top-search-area .logo-container a:focus,
+.top-search-area .logo-container a:hover {
+    text-decoration: none;
+}
+
+.top-search-area form {
+    display: flex;
+}
+
+.top-search-area .searchbar {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.top-search-area .submit-button {
+    width: 5em;
+}
+
+.results {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.results p {
+    margin: 0;
+}
+
+.result-item {
+    margin-bottom: 1.5em;
+}
+
+.result-item h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.result-item .title a {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.result-item .uri {
+    font-size: 12px;
+    color: #006600;
+}
+
+.result-item .blurb {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.result-item .scores {
+    font-size: 14px;
+    color: #006600;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{initialQuery}} - Search Results</title>
+    <link rel="stylesheet"
+          href="/styles.css"
+          type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-search-area">
+            <div class="logo-container">
+                <h1 class="logo uw-purple">
+                    <a href="/">
+                        {{siteTitle}}
+                    </a>
+                </h1>
+            </div>
+            <form action="/search">
+                <input type="text"
+                       name="query"
+                       value="{{initialQuery}}"
+                       class="searchbar"/>
+
+                <input type="submit"
+                       value="Search"
+                       class="submit-button"/>
+            </form>
+        </div>
+
+        <ul class="results">
+            {{#results}}
+            <li class="result-item">
+                <h2 class="title">
+                    <a href="{{uri}}">{{title}}</a>
+                </h2>
+
+                <p class="uri">{{uri}}</p>
+
+                <p class="blurb">{{blurb}}</p>
+
+                <p class="scores">
+                    Score: {{score}}
+                </p>
+            </li>
+            {{/results}}
+        </ul>
+    </div>
+</body>
+</html>

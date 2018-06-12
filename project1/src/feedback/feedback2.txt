@@ -1,0 +1,44 @@
+# Feedback
+
+Group:
+
+Final score: 45 / 45
+
+## Style check
+
+Score: 5 / 5
+
+
+## ExpressionManipulators
+
+Score: 40 / 40
+
+-   PASS: testSimplifyHandlesDefinedVars
+-   PASS: testToDoubleComplexArithmetic
+-   PASS: testToDoubleComplexWithVariables
+-   PASS: testToDoubleWithUndefinedVariables
+-   PASS: testToDoubleBasicArithmeticOperations
+-   PASS: testToDoubleWithUnknownOperation
+-   PASS: testSimplifyBasicArithmeticOperationsWithVars
+-   PASS: testToDoubleWithVariables
+-   PASS: testSimplifyBasicArithmeticOperationsWithOnlyNumbers
+-   PASS: testToDoubleBasicTrig
+-   PASS: testSimplifyDoesNotModifyVarsDictionary
+-   PASS: testSimplifyHandlesDivisionAndPow
+-   PASS: testToDoubleDoesNotModifyVarsDictionary
+-   PASS: testSimplifyHandlesBasicTrig
+-   PASS: basicTestSimplifyNewNode
+-   PASS: basicTestToDouble
+-   PASS: basicTestToSimplify
+-   PASS: testBasicFunctions
+-   PASS: testBasicOperators
+-   PASS: testExample1BasicMath
+-   PASS: testExample2VariableRedefinition
+-   PASS: testExample3SymbolicEvaluation
+-   PASS: testPlotCleansUpVariable
+-   PASS: testPlotFailsOnBadInput
+-   PASS: testPlotFailsOnUnknown
+-   PASS: testPlotInputs
+-   PASS: testSimplification
+-   PASS: testToDoubleFailsOnUnknown
+
